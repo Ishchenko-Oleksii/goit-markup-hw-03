@@ -9,28 +9,13 @@ a {
 	text-decoration: none;
 }
 .portfolio-body {
-	position: relative;
-	width: 1600px;
-	height: 1880px;
 	background: #ffffff;
 }
 /* HEADER */
 .header-style {
-	border: 1px solid rgba(236, 236, 236, 1);
-	position: absolute;
-	width: 1600px;
-	height: 80px;
-	left: 0px;
-	top: 0px;
 }
 
 .webstudio {
-	position: absolute;
-	width: 200px;
-	height: 31px;
-	left: 215px;
-	top: 24px;
-
 	font-family: "Raleway", sans-serif;
 	font-size: 26px;
 	font-weight: 700;
@@ -49,12 +34,6 @@ a {
 }
 
 .studio {
-	position: absolute;
-	width: 45px;
-	height: 16px;
-	left: 453px;
-	top: 32px;
-
 	font-family: "Roboto", sans-serif;
 	font-weight: 500;
 	font-size: 14px;
@@ -66,13 +45,8 @@ a {
 .studio:hover,
 .studio:focus {
 	color: #2196f3;
-	cursor: pointer;
 }
 .portfolio {
-	position: absolute;
-	width: 72px;
-	left: 548px;
-	top: 32px;
 	font-family: "Roboto", sans-serif;
 	font-weight: 500;
 	font-size: 14px;
@@ -83,15 +57,9 @@ a {
 .portfolio:hover,
 .portfolio:focus {
 	color: #2196f3;
-	cursor: pointer;
 }
 
 .contacts {
-	position: absolute;
-	width: 64px;
-	height: 16px;
-	left: 670px;
-	top: 32px;
 	font-family: "Roboto", sans-serif;
 	font-weight: 500;
 	font-size: 14px;
@@ -102,20 +70,13 @@ a {
 .contacts:hover,
 .contacts:focus {
 	color: #2196f3;
-	cursor: pointer;
 }
 .header-contacts:focus,
 .header-contacts:hover {
 	color: #2196f3;
-	cursor: pointer;
 }
 
 .mail {
-	position: absolute;
-	width: 135px;
-	height: 16px;
-	left: 1078px;
-	top: 32px;
 	font-family: "Roboto", sans-serif;
 	font-weight: 500;
 	font-size: 14px;
@@ -124,12 +85,6 @@ a {
 	color: #757575;
 }
 .phone {
-	position: absolute;
-	width: 122px;
-	height: 16px;
-	left: 1263px;
-	top: 32px;
-
 	font-family: "Roboto", sans-serif;
 	font-weight: 500;
 	font-size: 14px;
@@ -140,9 +95,6 @@ a {
 }
 /* BODY */
 .portfolio-main {
-	position: absolute;
-	width: 1170px;
-	height: 1360px;
 }
 
 .button {
@@ -163,39 +115,14 @@ button:focus {
 	border-color: #2196f3;
 }
 .button-all {
-	position: absolute;
-	width: 73px;
-	height: 38px;
-	left: 512px;
-	top: 174px;
 }
 .button-veb {
-	position: absolute;
-	width: 125px;
-	height: 38px;
-	left: 593px;
-	top: 174px;
 }
 .button-apendix {
-	position: absolute;
-	width: 112px;
-	height: 38px;
-	left: 726px;
-	top: 174px;
 }
 .button-designe {
-	position: absolute;
-	width: 103px;
-	height: 38px;
-	left: 846px;
-	top: 174px;
 }
 .button-marketing {
-	position: absolute;
-	width: 130px;
-	height: 38px;
-	left: 957px;
-	top: 174px;
 }
 .img-title {
 	font-family: "Roboto", sans-serif;
@@ -222,23 +149,11 @@ button:focus {
 .tehnokryak {
 	box-sizing: border-box;
 
-	position: absolute;
-	width: 370px;
-	height: 404px;
-	left: 215px;
-	top: 262px;
-
 	background: #ffffff;
 	border: 1px solid #eeeeee;
 }
 .poster {
 	box-sizing: border-box;
-
-	position: absolute;
-	width: 370px;
-	height: 404px;
-	left: 615px;
-	top: 262px;
 
 	background: #ffffff;
 	border: 1px solid #eeeeee;
@@ -247,102 +162,45 @@ button:focus {
 .seefood {
 	box-sizing: border-box;
 
-	position: absolute;
-	width: 370px;
-	height: 404px;
-	left: 1015px;
-	top: 262px;
-
 	background: #ffffff;
 	border: 1px solid #eeeeee;
 }
 .prime {
 	box-sizing: border-box;
-
-	position: absolute;
-	width: 370px;
-	height: 404px;
-	left: 215px;
-	top: 696px;
-
 	background: #ffffff;
 	border: 1px solid #eeeeee;
 }
 .boxes {
 	box-sizing: border-box;
-
-	position: absolute;
-	width: 370px;
-	height: 404px;
-	left: 615px;
-	top: 696px;
-
 	background: #ffffff;
 	border: 1px solid #eeeeee;
 }
 .inspiration {
 	box-sizing: border-box;
-
-	position: absolute;
-	width: 370px;
-	height: 404px;
-	left: 1015px;
-	top: 696px;
-
 	background: #ffffff;
 	border: 1px solid #eeeeee;
 }
 .limited-idition {
 	box-sizing: border-box;
-
-	position: absolute;
-	width: 370px;
-	height: 404px;
-	left: 215px;
-	top: 1130px;
-
 	background: #ffffff;
 	border: 1px solid #eeeeee;
 }
 .lab {
 	box-sizing: border-box;
-
-	position: absolute;
-	width: 370px;
-	height: 404px;
-	left: 615px;
-	top: 1130px;
-
 	background: #ffffff;
 	border: 1px solid #eeeeee;
 }
 .growing-business {
 	box-sizing: border-box;
-
-	position: absolute;
-	width: 370px;
-	height: 404px;
-	left: 1015px;
-	top: 1130px;
-
 	background: #ffffff;
 	border: 1px solid #eeeeee;
 }
 /* FOOTER */
 .footer {
-	position: absolute;
 	background: #2f303a;
-	width: 1600px;
-	height: 252px;
-	left: 0px;
-	top: 1600px;
 }
 .webstudio2 {
 	position: absolute;
-	width: 145px;
-	height: 31px;
-	left: 215px;
-	top: 60px;
 
 	font-family: "Raleway", sans-serif;
 	font-size: 26px;
@@ -351,18 +209,12 @@ button:focus {
 	letter-spacing: 0.03em;
 	text-align: left;
 	color: #2196f3;
-	cursor: pointer;
 }
 .logo-studio2 {
 	color: #fff;
 	background-color: #2f303a;
 }
 .address {
-	position: absolute;
-	width: 231px;
-	height: 81px;
-	left: 215px;
-	top: 111px;
 	font-style: normal;
 }
 
@@ -378,7 +230,6 @@ button:focus {
 .footer-contacts:hover,
 .footer-contacts:focus {
 	color: #2196f3;
-	cursor: pointer;
 }
 
 .mail-footer {
