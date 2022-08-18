@@ -1,15 +1,13 @@
 :root {
 	--brand-color: #2f303a;
-	background: #ffffff;
-	color: #212121;
 }
 
 body {
 	font-family: "Roboto", sans-serif;
 	letter-spacing: 0.03em;
-	font-style: normal;
-	font-weight: 400;
 	font-size: 14px;
+	background: #ffffff;
+	color: #212121;
 }
 
 ul,
@@ -54,9 +52,6 @@ a {
 .studio:focus {
 	color: #2196f3;
 }
-.studio:active {
-	color: #2196f3;
-}
 
 .portfolio {
 	font-weight: 500;
@@ -64,11 +59,14 @@ a {
 	letter-spacing: 0.02em;
 	color: #212121;
 }
+
 .portfolio:hover,
 .portfolio:focus {
 	color: #2196f3;
 }
-
+.current {
+	accent-color: #2196f3;
+}
 .contacts {
 	font-weight: 500;
 	line-height: 1.14;
@@ -96,7 +94,6 @@ a {
 	font-weight: 500;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-
 	color: #757575;
 }
 .main-hat {
@@ -114,9 +111,11 @@ a {
 	background: #2196f3;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
+	cursor: pointer;
 }
 
 .main-button-text {
+	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
@@ -137,48 +136,17 @@ a {
 	margin: -1px;
 }
 
-.attention {
+.our-features-title {
 	font-weight: 700;
 	line-height: 1.14;
 	text-transform: uppercase;
 	color: #212121;
 }
-.attention-text {
+.our-features-title-text {
 	line-height: 1.71;
 	color: #757575;
-}
-.punctuality {
-	font-weight: 700;
-	line-height: 1.14;
-	text-transform: uppercase;
-	color: #212121;
-}
-.punctuality-text {
-	line-height: 1.71;
-	color: #757575;
-}
-.palanning {
-	font-weight: 700;
-	line-height: 1.14;
-	text-transform: uppercase;
-	color: #212121;
 }
 
-.palanning-text {
-	line-height: 1.71;
-	color: #757575;
-}
-.modern {
-	font-weight: 700;
-	line-height: 1.14;
-	text-transform: uppercase;
-	color: #212121;
-}
-
-.modern-text {
-	line-height: 1.71;
-	color: #757575;
-}
 .what-we-do-title {
 	font-weight: 700;
 	font-size: 36px;
@@ -258,16 +226,19 @@ a {
 
 /* PORTFOLIO-body*/
 
-.button {
+.button-text {
+	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.6;
 	text-align: center;
 	color: #212121;
+	letter-spacing: 0.03em;
 	border-radius: 4px;
+	cursor: pointer;
 }
-.button:hover,
-.button:focus {
+.button-text:hover,
+.button-text:focus {
 	background-color: #2196f3;
 	color: #fff;
 	border-color: #2196f3;
