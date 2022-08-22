@@ -123,16 +123,19 @@ a {
 }
 .add-flex {
 	display: flex;
-	justify-content: space-between;
+	align-items: center;
 }
 .head-navigation {
-	display: flex;
-	align-items: center;
+	margin-left: auto;
 	gap: 50px;
+}
+.head-navigtion-ul {
+	justify-content: center;
 }
 .head-navigation-pad {
 	padding-top: 24px;
 	padding-bottom: 25px;
+	gap: 50px;
 }
 /* ((((((((((((((((((((( MAIL+PHONE ))))))))))))))))))) */
 .mail {
@@ -227,7 +230,9 @@ a {
 	text-align: center;
 	margin-bottom: 50px;
 }
-
+.padding-zero {
+	padding-top: 0;
+}
 .team {
 	background: var(--back-for-button-card-color);
 }
@@ -251,16 +256,18 @@ a {
 	font-size: 16px;
 	line-height: 1.19;
 	color: var(--mainbody-color);
-	margin-top: 30px;
 	text-align: center;
+	margin-bottom: 10px;
 }
 .team-speciality {
 	font-size: 16px;
 	line-height: 1.19;
-	margin-top: 10px;
-	margin-bottom: 30px;
 	color: var(--secondary-text-color);
 	text-align: center;
+}
+.team-text-padding {
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 /* ((((((((((((((((((((( FOOTER ))))))))))))))))))))))))) */
@@ -327,7 +334,8 @@ a {
 	border-radius: 4px;
 	cursor: pointer;
 	background-color: var(--back-for-button-card-color);
-	margin-right: 8px;
+
+	padding: 6px 22px 6px 22px;
 }
 .button-text:hover,
 .button-text:focus {
@@ -339,7 +347,8 @@ a {
 .button-flex {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 34px;
+	margin-bottom: 50px;
+	gap: 8px;
 }
 .button-flex:last-child {
 	margin-right: 0;
@@ -350,30 +359,30 @@ a {
 	line-height: 2;
 	letter-spacing: 0.06em;
 	color: var(--mainbody-color);
-	margin-top: 20px;
-	padding-left: 24px;
+	margin-bottom: 4px;
 }
 .img-type {
 	font-size: 16px;
 	line-height: 1.88;
 	color: var(--secondary-text-color);
-	margin-bottom: 20px;
-	padding-left: 24px;
+}
+.img-text-padding {
+	padding: 20px 24px 20px 24px;
+	border: 1px solid var(--project-boxborder-color);
 }
 .project-boxes {
 	box-sizing: border-box;
 	background: var(--white-bg-color);
-	border: 1px solid var(--project-boxborder-color);
 }
 
 .project-flex {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	gap: 30px;
 }
 
-.project-boxes-spaces {
+/* .project-boxes-spaces {
 	margin-top: 20px;
 	padding-left: 24px;
 	padding-bottom: 20px;
-}
+} */
