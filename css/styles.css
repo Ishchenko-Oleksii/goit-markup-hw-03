@@ -103,7 +103,6 @@ a {
 .add-flex {
 	display: flex;
 	align-items: center;
-	gap: 50px;
 }
 .head-navigation {
 	margin-left: auto;
@@ -114,6 +113,7 @@ a {
 }
 .nav-margin {
 	margin-left: 93px;
+	gap: 50px;
 }
 
 /* ((((((((((((((((((((( MAIL+PHONE ))))))))))))))))))) */
@@ -282,7 +282,7 @@ a {
 	line-height: 1.71;
 	color: var(--white-bg-color);
 }
-.address-margin {
+.address-item:not(:last-child) {
 	margin-bottom: 9px;
 }
 
